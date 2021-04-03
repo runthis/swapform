@@ -53,10 +53,10 @@
 	"scripts": {
 		"css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/ -o dist/css/",
 		"css-minify": "node-sass --output-style compressed --source-map true --source-map-contents true --precision 6 scss/ -o dist/css/",
-		"js-compile": "npx google-closure-compiler --js=js/src/swapform.js --js_output_file=js/dist/swapform.js --create_source_map=js/dist/swapform.js.map --source_map_include_content --compilation_level=WHITESPACE_ONLY --formatting=PRETTY_PRINT",
+		"js-compile": "npx google-closure-compiler --js=js/src/swapform.js --js_output_file=js/dist/swapform.js --create_source_map=js/dist/swapform.js.map --source_map_include_content --compilation_level=WHITESPACE_ONLY --formatting=PRETTY_PRINT --language_out=ES6",
 		"js-minify": "npx google-closure-compiler --js=js/src/swapform.js --js_output_file=js/dist/swapform.min.js --create_source_map=js/dist/swapform.min.js.map --source_map_include_content"
 	},
 	"style": "dist/css/swapform.css",
-	"version": "1.0.1"
+	"version": "1.0.3"
   }
   
