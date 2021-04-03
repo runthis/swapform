@@ -7,7 +7,7 @@
 <h3 align="center">Swapform</h3>
 
 <p align="center">
-  A front-end improvement to Bootstrap forms with a Material design
+  A front-end improvement to Bootstrap forms with a Material design. Supports bootstrap versions 3, 4 and 5.
   <br>
   <a href="https://github.com/runthis/swapform/issues/new">Report bug</a>
   ·
