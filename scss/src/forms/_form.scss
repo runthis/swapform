@@ -1,0 +1,17 @@
+.sf-form {
+	position: relative;
+}
+
+.sf-form .form-control {
+	border: none;
+}
+
+.sf-form .form-control:focus {
+	border: none;
+	box-shadow: none !important;
+}
+
+.sf-form .form-control:focus ~ .sf-form-slot div {
+	border-width: 2px;
+	border-color: #2a65ea;
+}

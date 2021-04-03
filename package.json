@@ -1,0 +1,62 @@
+{
+	"name": "swapform",
+	"author": {
+	  "name": "Robert Miller",
+	  "url": "https://github.com/runthis/swapform/graphs/contributors"
+	},
+	"bugs": {
+	  "url": "https://github.com/runthis/swapform/issues"
+	},
+	"config": {
+	  "version_short": "1.0"
+	},
+	"contributors": [
+	  {
+		"name": "Robert Miller"
+	  }
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"node-sass": "^5.0.0",
+		"google-closure-compiler": "^20210302.0.0"
+	},
+	"description": "A front-end improvement to Bootstrap forms with a Material design.",
+	"files": [
+	  "dist/{css,js}/*.{css,js,map}",
+	  "js/{src,dist}/**/*.{js,map}",
+	  "scss/**/*.scss"
+	],
+	"funding": {
+	  "type": "opencollective",
+	  "url": "https://opencollective.com/swapform"
+	},
+	"homepage": "https://swapform.robertjessemiller.com/",
+	"keywords": [
+	  "bootstrap",
+	  "front-end",
+	  "material",
+	  "form",
+	  "css",
+	  "sass",
+	  "web"
+	],
+	"license": "MIT",
+	"main": "dist/js/swapform.js",
+	"peerDependencies": {
+	  "bootstrap": ">=3.4.1"
+	},
+	"repository": {
+	  "type": "git",
+	  "url": "git+https://github.com/runthis/swapform.git"
+	},
+	"sass": "scss/swapform.scss",
+	"scripts": {
+		"css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/ -o dist/css/",
+		"css-minify": "node-sass --output-style compressed --source-map true --source-map-contents true --precision 6 scss/ -o dist/css/",
+		"js-compile": "npx google-closure-compiler --js=js/src/swapform.js --js_output_file=js/dist/swapform.js --create_source_map=js/dist/swapform.js.map --source_map_include_content --compilation_level=WHITESPACE_ONLY --formatting=PRETTY_PRINT",
+		"js-minify": "npx google-closure-compiler --js=js/src/swapform.js --js_output_file=js/dist/swapform.min.js --create_source_map=js/dist/swapform.min.js.map --source_map_include_content --compilation_level=ADVANCED"
+	},
+	"style": "dist/css/swapform.css",
+	"version": "1.0.0"
+  }
+  

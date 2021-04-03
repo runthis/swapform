@@ -1,0 +1,49 @@
+@use '../global/variables' as global;
+
+.#{global.$pkg}-textarea {
+	overflow-y: auto;
+	border-top: 1rem solid transparent !important;
+	border-bottom: 1rem solid transparent !important;
+	padding-top: 0px !important;
+	transition: none !important;
+	background-clip: unset !important;
+	resize: none !important;
+	height: 62px;
+	
+	// Default autogrow
+	&-sm {
+		@extend .#{global.$pkg}-textarea;
+		max-height: global.$textarea-sm;
+	}
+
+	&-md {
+		@extend .#{global.$pkg}-textarea;
+		max-height: global.$textarea-md;
+	}
+
+	&-lg {
+		@extend .#{global.$pkg}-textarea;
+		max-height: global.$textarea-lg;
+	}
+	
+	// Do not autogrow
+	&-fixed {
+		&-sm {
+			@extend .#{global.$pkg}-textarea;
+			@extend .#{global.$pkg}-textarea-sm;
+			height: global.$textarea-sm;
+		}
+
+		&-md {
+			@extend .#{global.$pkg}-textarea;
+			@extend .#{global.$pkg}-textarea-md;
+			height: global.$textarea-md;
+		}
+
+		&-lg {
+			@extend .#{global.$pkg}-textarea;
+			@extend .#{global.$pkg}-textarea-lg;
+			height: global.$textarea-lg;
+		}
+	}
+}

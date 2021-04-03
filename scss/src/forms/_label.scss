@@ -1,0 +1,48 @@
+@use '../global/variables' as global;
+
+.#{global.$pkg}-label {
+	position: absolute;
+	left: 10px;
+	top: global.$label-md;
+	padding: 0px 3px 0px 3px;
+	transition: top 0.2s, color 0.2s, font-size 0.2s;
+	pointer-events: none;
+	user-select: none;
+	height: 16px;
+	color: var(--bs-gray);
+	
+	&-sm {
+		@extend .#{global.$pkg}-label;
+		top: global.$label-sm;
+		font-size: 0.75em;
+	}
+
+	&-lg {
+		@extend .#{global.$pkg}-label;
+		top: global.$label-lg;
+	}
+}
+
+.#{global.$pkg}-label-active {
+	top: -9px;
+	font-size: 0.75em;
+	color: #2a65ea;
+}
+
+.#{global.$pkg}-label-filled {
+	padding: 0px 3px 0px 0px;
+}
+
+.#{global.$pkg}-label-filled:before {
+	content: ' ';
+	display: inline-block;
+	position: relative;
+	top: 0px;
+	width: 16px;
+	height: 12px;
+	background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iIzJhNjVlYSIgdmlld0JveD0iMCAwIDE2IDE2Ij48cGF0aCBkPSJNMTAuOTcgNC45N2EuNzUuNzUgMCAwIDEgMS4wNyAxLjA1bC0zLjk5IDQuOTlhLjc1Ljc1IDAgMCAxLTEuMDguMDJMNC4zMjQgOC4zODRhLjc1Ljc1IDAgMSAxIDEuMDYtMS4wNmwyLjA5NCAyLjA5MyAzLjQ3My00LjQyNWEuMjY3LjI2NyAwIDAgMSAuMDItLjAyMnoiIGNsYXNzPSJzblBSU3BISl8wIj48L3BhdGg+PC9zdmc+');
+}
+
+.#{global.$pkg}-label-no-border-top {
+	border-top: none !important;
+}
