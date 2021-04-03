@@ -12,10 +12,15 @@
 ## Quick start
 
 - Install with [npm](https://www.npmjs.com/): `npm install swapform`
+
 or
+
 - Clone the repo: `git clone https://github.com/runthis/swapform.git`
+
 or
+
 - [Download the latest release.](https://github.com/runthis/swapform/archive/refs/heads/master.zip)
+
 
 
 ## Status
