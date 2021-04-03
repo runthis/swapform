@@ -2,6 +2,7 @@
 
 ## Table of contents
 
+- [Installation](#installation)
 - [Quick start](#quick-start)
 - [Status](#status)
 - [What's included](#whats-included)
@@ -9,18 +10,15 @@
 - [Creators](#creators)
 
 
-## Quick start
+## Installation
 
 - Install with [npm](https://www.npmjs.com/): `npm install swapform`
 
-or
+
+## Quick start
 
 - Clone the repo: `git clone https://github.com/runthis/swapform.git`
-
-or
-
 - [Download the latest release.](https://github.com/runthis/swapform/archive/refs/heads/master.zip)
-
 
 
 ## Status
