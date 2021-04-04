@@ -203,17 +203,17 @@ These are used on `<input>` or `<textarea>` elements. The `color` and `file` inp
 ## Screenshots
 
 
-Using HTML
+**Using HTML**
 
 ![Swap All](https://swapform.robertjessemiller.com/img/swap-4.gif)
 
 
-Using emojis
+**Using emojis**
 
 ![Swap All](https://swapform.robertjessemiller.com/img/swap-6.gif)
 
 
-Auto expanding textarea
+**Auto expanding textarea**
 
 ![Swap All](https://swapform.robertjessemiller.com/img/swap-5.gif)
 
