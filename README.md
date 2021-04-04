@@ -4,8 +4,6 @@
   </a>
 </p>
 
-<h3 align="center">Swapform</h3>
-
 <p align="center">
   A front-end improvement to Bootstrap forms with a Material design.
   <br>
