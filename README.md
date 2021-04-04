@@ -25,8 +25,6 @@
 
 
 
-![Swap All](https://swapform.robertjessemiller.com/img/swap-2.gif)
-
 
 
 ## Table of contents
@@ -202,19 +200,25 @@ These are used on `<input>` or `<textarea>` elements. The `color` and `file` inp
 ## Screenshots
 
 
+
+**Basic**
+
+![Basic swap](https://swapform.robertjessemiller.com/img/swap-2.gif)
+
+
 **Using HTML**
 
-![Swap All](https://swapform.robertjessemiller.com/img/swap-4.gif)
+![HTML Swap](https://swapform.robertjessemiller.com/img/swap-4.gif)
 
 
 **Using emojis**
 
-![Swap All](https://swapform.robertjessemiller.com/img/swap-6.gif)
+![Emoji Swap](https://swapform.robertjessemiller.com/img/swap-6.gif)
 
 
 **Auto expanding textarea**
 
-![Swap All](https://swapform.robertjessemiller.com/img/swap-5.gif)
+![Expanding Textarea](https://swapform.robertjessemiller.com/img/swap-5.gif)
 
 
 
