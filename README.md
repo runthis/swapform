@@ -37,8 +37,8 @@
 - [What's included](#whats-included)
 - [Documentation](#documentation)
 - [Screenshots](#screenshots)
-- [Todo](#todo)
 - [Builds](#builds)
+- [Todo](#todo)
 - [Creator](#creator)
 
 
@@ -220,11 +220,6 @@ These are used on `<input>` or `<textarea>` elements. The `color` and `file` inp
 
 
 
-## Todo
-
-- Add a new method to detect errors on form validation and allow handling
-
-
 ## Builds
 
 If you are using the [npm build](https://www.npmjs.com/package/swapform), you can rebuild the compiled assets after making any desired changes by running any of the following commands:
@@ -239,6 +234,11 @@ If you are using the [npm build](https://www.npmjs.com/package/swapform), you ca
 
 *All the above commands also generate source maps*
 
+
+
+## Todo
+
+- Add a new method to detect errors on form validation and allow handling
 
 
 
