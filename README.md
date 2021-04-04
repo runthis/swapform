@@ -227,7 +227,7 @@ These are used on `<input>` or `<textarea>` elements. The `color` and `file` inp
 
 ## Builds
 
-If you are using the (npm build)[https://www.npmjs.com/package/swapform], you can rebuild the compiled assets after making any desired changes by running any of the following commands:
+If you are using the [npm build](https://www.npmjs.com/package/swapform), you can rebuild the compiled assets after making any desired changes by running any of the following commands:
 
 
 | Option        | Description                                                                               |
