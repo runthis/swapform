@@ -17,6 +17,7 @@
 </p>
 
 
+
 [![license](https://img.shields.io/npm/l/swapform)](https://github.com/runthis/swapform/blob/master/LICENSE)
 [![version](https://img.shields.io/github/package-json/version/runthis/swapform)](https://www.npmjs.com/package/swapform)
 ![bootstrap version](https://img.shields.io/npm/dependency-version/swapform/peer/bootstrap)
@@ -33,8 +34,8 @@
 ## Table of contents
 
 - [Quick start](#quick-start)
-- [Screenshots](#screenshots)
 - [What's included](#whats-included)
+- [Screenshots](#screenshots)
 - [Documentation](#documentation)
 - [Creators](#creators)
 
@@ -49,24 +50,6 @@
   - `npm install swapform`
 - Download a zip:
   - <https://github.com/runthis/swapform/archive/refs/heads/master.zip>
-
-
-
-## Screenshots
-
-Using HTML
-
-![Swap All](https://swapform.robertjessemiller.com/img/swap-4.gif)
-
-
-Using emojis
-
-![Swap All](https://swapform.robertjessemiller.com/img/swap-6.gif)
-
-
-Auto expanding textarea
-
-![Swap All](https://swapform.robertjessemiller.com/img/swap-5.gif)
 
 
 
@@ -86,6 +69,26 @@ swapform/
         ├── swapform.min.js
         └── swapform.min.js.map
 ```
+
+
+
+## Screenshots
+
+
+Using HTML
+
+![Swap All](https://swapform.robertjessemiller.com/img/swap-4.gif)
+
+
+Using emojis
+
+![Swap All](https://swapform.robertjessemiller.com/img/swap-6.gif)
+
+
+Auto expanding textarea
+
+![Swap All](https://swapform.robertjessemiller.com/img/swap-5.gif)
+
 
 
 ## Documentation
