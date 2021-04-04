@@ -57,6 +57,6 @@
 		"js-minify": "npx google-closure-compiler --js=js/src/swapform.js --js_output_file=js/dist/swapform.min.js --create_source_map=js/dist/swapform.min.js.map --source_map_include_content"
 	},
 	"style": "dist/css/swapform.css",
-	"version": "1.0.6"
+	"version": "1.0.7"
   }
   

@@ -32,7 +32,6 @@
 
 ## Table of contents
 
-- [Installation](#installation)
 - [Quick start](#quick-start)
 - [Screenshots](#screenshots)
 - [What's included](#whats-included)
@@ -40,16 +39,16 @@
 - [Creators](#creators)
 
 
-## Installation
-
-- Install with [npm](https://www.npmjs.com/): `npm install swapform`
-
 
 ## Quick start
 
-- Install with [npm](https://www.npmjs.com/): `npm install swapform`
-- Clone the repo: `git clone https://github.com/runthis/swapform.git`
-- [Download the latest release.](https://github.com/runthis/swapform/archive/refs/heads/master.zip)
+- Use a cdn:
+  - JavaScript: <https://cdn.jsdelivr.net/npm/swapform@latest/dist/js/swapform.min.js>
+  - CSS: <https://cdn.jsdelivr.net/npm/swapform@latest/dist/css/swapform.min.css>
+- Use [npm](https://www.npmjs.com/): `npm install swapform`
+- Download a zip:
+  - <https://github.com/runthis/swapform/archive/refs/heads/master.zip>
+
 
 
 ## Screenshots
