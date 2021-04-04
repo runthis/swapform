@@ -113,6 +113,8 @@ Quite simply, wrap an input or textarea in a `<div>` element with an `sf-form` c
 
 The `<textarea>` element supports the same swapping methods outlined above, and also supports automatic height expansion, fixed heights and multiple sizes. Below is a table listing the available classes for a `<textarea>` depending on the features and size desired.
 
+![Expanding Textarea](https://swapform.robertjessemiller.com/img/swap-11.gif)
+
 
 #### Classes for fixed heights and auto-expanding heights
 
