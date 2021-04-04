@@ -101,7 +101,9 @@ Quite simply, wrap an input or textarea in a `<div>` element with an `sf-form` c
 
 #### Swapping multiple labels when focused and when input value is filled
     <div class="sf-form">
-        <label class="sf-label" data-description="Who are you?" data-filled="That's what she said">Enter username</label>
+        <label class="sf-label" data-description="Who are you?" data-filled="That's what she said">
+            Enter username
+        </label>
         <input type="text" class="form-control">
     </div>
 
