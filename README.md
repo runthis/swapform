@@ -45,7 +45,8 @@
 - Use a cdn:
   - JavaScript: <https://cdn.jsdelivr.net/npm/swapform@latest/dist/js/swapform.min.js>
   - CSS: <https://cdn.jsdelivr.net/npm/swapform@latest/dist/css/swapform.min.css>
-- Use [npm](https://www.npmjs.com/): `npm install swapform`
+- Use [npm](https://www.npmjs.com/):
+  - `npm install swapform`
 - Download a zip:
   - <https://github.com/runthis/swapform/archive/refs/heads/master.zip>
 
