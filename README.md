@@ -89,11 +89,15 @@ Quite simply, wrap an input or textarea in a `<div>` element with an `sf-form` c
         <input type="text" class="form-control">
     </div>
 
+![Basic swap](https://swapform.robertjessemiller.com/img/swap-8.gif)
+
 #### Swapping label when focused
     <div class="sf-form">
         <label class="sf-label" data-description="Who are you?">Enter username</label>
         <input type="text" class="form-control">
     </div>
+
+![Basic swap](https://swapform.robertjessemiller.com/img/swap-9.gif)
 
 #### Swapping multiple labels when focused and when input value is filled
     <div class="sf-form">
@@ -101,7 +105,7 @@ Quite simply, wrap an input or textarea in a `<div>` element with an `sf-form` c
         <input type="text" class="form-control">
     </div>
 
-
+![Basic swap](https://swapform.robertjessemiller.com/img/swap-10.gif)
 
 ### Textarea examples
 
