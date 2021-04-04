@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://swapform.robertjessemiller.com/">
-    <img src="https://swapform.robertjessemiller.com/img/branding/1.0/logo.svg?v=2" alt="Swapform logo" width="200" height="200">
+    <img src="https://swapform.robertjessemiller.com/img/swap-7.gif" alt="Swapform in action" width="320" height="80">
   </a>
 </p>
 
@@ -9,7 +9,7 @@
 <p align="center">
   A front-end improvement to Bootstrap forms with a Material design.
   <br>
-  Supports Bootstrap versions 3, 4 and 5.
+  Supports Bootstrap versions <strong>3</strong>, <strong>4</strong> and <strong>5</strong>.
   <br>
   <a href="https://github.com/runthis/swapform/issues/new">Report bug</a>
   ·
