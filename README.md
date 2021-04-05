@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://swapform.robertjessemiller.com/">
-    <img src="https://swapform.robertjessemiller.com/img/swap-7.gif" alt="Swapform in action" width="320" height="80">
+  <a href="https://www.swapform.com/">
+    <img src="https://www.swapform.com/img/swap-7.gif" alt="Swapform in action" width="320" height="80">
   </a>
 </p>
 
@@ -8,6 +8,9 @@
   A front-end improvement to Bootstrap forms with a Material design.
   <br>
   Supports Bootstrap versions <strong>3</strong>, <strong>4</strong> and <strong>5</strong>.
+  <br>
+  <a href="https://www.swapform.com/#docs"><strong>Documentation »</strong></a>
+  <br>
   <br>
   <a href="https://github.com/runthis/swapform/issues/new">Report bug</a>
   ·
@@ -89,7 +92,7 @@ Quite simply, wrap an input or textarea in a `<div>` element with an `sf-form` c
         <input type="text" class="form-control">
     </div>
 
-![Basic swap](https://swapform.robertjessemiller.com/img/swap-8.gif)
+![Basic swap](https://www.swapform.com/img/swap-8.gif)
 
 #### Swapping label when focused
     <div class="sf-form">
@@ -97,7 +100,7 @@ Quite simply, wrap an input or textarea in a `<div>` element with an `sf-form` c
         <input type="text" class="form-control">
     </div>
 
-![Basic swap](https://swapform.robertjessemiller.com/img/swap-9.gif)
+![Basic swap](https://www.swapform.com/img/swap-9.gif)
 
 #### Swapping multiple labels when focused and when input value is filled
     <div class="sf-form">
@@ -107,13 +110,13 @@ Quite simply, wrap an input or textarea in a `<div>` element with an `sf-form` c
         <input type="text" class="form-control">
     </div>
 
-![Basic swap](https://swapform.robertjessemiller.com/img/swap-10.gif)
+![Basic swap](https://www.swapform.com/img/swap-10.gif)
 
 ### Textarea examples
 
 The `<textarea>` element supports the same swapping methods outlined above, and also supports automatic height expansion, fixed heights and multiple sizes. Below is a table listing the available classes for a `<textarea>` depending on the features and size desired.
 
-![Expanding Textarea](https://swapform.robertjessemiller.com/img/swap-11.gif)
+![Expanding Textarea](https://www.swapform.com/img/swap-11.gif)
 
 
 #### Classes for fixed heights and auto-expanding heights
@@ -211,22 +214,22 @@ These are used on `<input>` or `<textarea>` elements. The `color` and `file` inp
 
 **Basic**
 
-![Basic swap](https://swapform.robertjessemiller.com/img/swap-2.gif)
+![Basic swap](https://www.swapform.com/img/swap-2.gif)
 
 
 **Using HTML**
 
-![HTML Swap](https://swapform.robertjessemiller.com/img/swap-4.gif)
+![HTML Swap](https://www.swapform.com/img/swap-4.gif)
 
 
 **Using emojis**
 
-![Emoji Swap](https://swapform.robertjessemiller.com/img/swap-6.gif)
+![Emoji Swap](https://www.swapform.com/img/swap-6.gif)
 
 
 **Auto expanding textarea**
 
-![Expanding Textarea](https://swapform.robertjessemiller.com/img/swap-5.gif)
+![Expanding Textarea](https://www.swapform.com/img/swap-5.gif)
 
 
 
