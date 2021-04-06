@@ -1,0 +1,22 @@
+name: CanBuild
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Can build scss and js
+        run: |
+          npm install --only=dev
+          npm run css-compile
+          npm run css-minify
+          npm run js-compile
+          npm run js-minify
