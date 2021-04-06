@@ -237,12 +237,14 @@ These are used on `<input>` or `<textarea>` elements. The `color` and `file` inp
 If you are using the [npm build](https://www.npmjs.com/package/swapform), you can rebuild the compiled assets after making any desired changes by running any of the following commands:
 
 
-| Option        | Description                                                                               |
-| ------------- | ----------------------------------------------------------------------------------------- |
-| `css-compile` | Generates a non-minified version of the css and stores it in `./dist/css/swapform.css`      |
-| `css-minify`  | Generates a minified version of the css and stores it in `./dist/css/swapform.min.css`      |
-| `js-compile`  | Generates a non-minified version of the javascript and stores it in `./js/dist/swapform.js` |
-| `js-minify`   | Generates a minified version of the javascript and stores it in `./js/dist/swapform.min.js` |
+| Option             | Description                                                                               |
+| ----------------- | ----------------------------------------------------------------------------------------- |
+| `css-compile`     | Generates a non-minified version of the css and stores it in `./dist/css/swapform.css`      |
+| `css-minify`      | Generates a minified version of the css and stores it in `./dist/css/swapform.min.css`      |
+| `js-compile-dev`  | Generates a non-minified version of the javascript and stores it in `./js/dist/swapform.js` |
+| `js-minify-dev`   | Generates a minified version of the javascript and stores it in `./js/dist/swapform.min.js` |
+| `js-compile-prod` | Generates a non-minified version of the javascript and stores it in `./dist/js/swapform.js` |
+| `js-minify-prod`  | Generates a minified version of the javascript and stores it in `./dist/js/swapform.min.js` |
 
 *All the above commands also generate source maps*
 
