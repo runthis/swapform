@@ -45,11 +45,11 @@
 
 - Use a cdn:
   - **JavaScript** *(pick a provider)*:
-    - unpkg: <https://unpkg.com/swapform@1.1.1/dist/js/swapform.min.js>
-    - jsdelivr: <https://cdn.jsdelivr.net/npm/swapform@1.1.1/dist/js/swapform.min.js>
+    - unpkg: <https://unpkg.com/swapform@1.1.2/dist/js/swapform.min.js>
+    - jsdelivr: <https://cdn.jsdelivr.net/npm/swapform@1.1.2/dist/js/swapform.min.js>
   - **CSS** *(pick a provider)*:
-    - unpkg: <https://unpkg.com/swapform@1.1.1/dist/css/swapform.min.css>
-    - jsdelivr: <https://cdn.jsdelivr.net/npm/swapform@1.1.1/dist/css/swapform.min.css>
+    - unpkg: <https://unpkg.com/swapform@1.1.2/dist/css/swapform.min.css>
+    - jsdelivr: <https://cdn.jsdelivr.net/npm/swapform@1.1.2/dist/css/swapform.min.css>
 
 - Use [npm](https://www.npmjs.com/):
   - `npm install swapform`
