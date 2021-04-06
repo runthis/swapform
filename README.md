@@ -18,12 +18,12 @@
 </p>
 
 [![Build](https://github.com/runthis/swapform/actions/workflows/build.yml/badge.svg)](https://github.com/runthis/swapform/actions/workflows/build.yml)
-[![license](https://img.shields.io/npm/l/swapform)](https://github.com/runthis/swapform/blob/master/LICENSE)
 [![version](https://img.shields.io/github/package-json/version/runthis/swapform)](https://www.npmjs.com/package/swapform)
 ![bootstrap version](https://img.shields.io/npm/dependency-version/swapform/peer/bootstrap)
 [![JS gzip size](https://img.badgesize.io/runthis/swapform/master/dist/js/swapform.min.js?compression=gzip&label=JS%20gzip%20size)](https://github.com/runthis/swapform/blob/master/dist/js/swapform.min.js)
 [![CSS gzip size](https://img.badgesize.io/runthis/swapform/master/dist/css/swapform.min.css?compression=gzip&label=CSS%20gzip%20size)](https://github.com/runthis/swapform/blob/master/dist/css/swapform.min.css)
 [![vulnerabilities](https://img.shields.io/snyk/vulnerabilities/npm/swapform)](https://snyk.io/vuln/search?type=npm&q=swapform)
+[![license](https://img.shields.io/npm/l/swapform)](https://github.com/runthis/swapform/blob/master/LICENSE)
 
 
 
