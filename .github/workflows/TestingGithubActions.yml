@@ -30,3 +30,4 @@ jobs:
         run: |
           npm install --only=dev
           npx google-closure-compiler --help
+          ls -lah
