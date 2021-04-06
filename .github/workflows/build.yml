@@ -1,4 +1,4 @@
-name: CanBuild
+name: Build
 
 on:
   push:
