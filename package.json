@@ -52,12 +52,12 @@
 	"sass": "scss/swapform.scss",
 	"scripts": {
 		"css-compile": "npx sass scss/swapform.scss dist/css/swapform.css --style=expanded",
-		"css-minify": "npx sass scss/swapform.scss dist/css/swapform.css --style=compressed",
+		"css-minify": "npx sass scss/swapform.scss dist/css/swapform.min.css --style=compressed",
 		"js-compile-dev": "npx google-closure-compiler --js=js/src/swapform.js --js_output_file=js/dist/swapform.js --create_source_map=js/dist/swapform.js.map --source_map_include_content --output_wrapper '%output%\n//# sourceMappingURL=swapform.js.map' --compilation_level=WHITESPACE_ONLY --formatting=PRETTY_PRINT --language_out=ES6",
 		"js-minify-dev": "npx google-closure-compiler --js=js/src/swapform.js --js_output_file=js/dist/swapform.min.js --create_source_map=js/dist/swapform.min.js.map --source_map_include_content --output_wrapper '%output%\n//# sourceMappingURL=swapform.js.map' --language_out=ES6",
 		"js-compile-prod": "npx google-closure-compiler --js=js/src/swapform.js --js_output_file=dist/js/swapform.js --create_source_map=js/dist/swapform.js.map --source_map_include_content --output_wrapper '%output%\n//# sourceMappingURL=swapform.js.map' --compilation_level=WHITESPACE_ONLY --formatting=PRETTY_PRINT --language_out=ES6",
 		"js-minify-prod": "npx google-closure-compiler --js=js/src/swapform.js --js_output_file=dist/js/swapform.min.js --create_source_map=js/dist/swapform.min.js.map --source_map_include_content --output_wrapper '%output%\n//# sourceMappingURL=swapform.js.map' --language_out=ES6"
 	},
 	"style": "dist/css/swapform.css",
-	"version": "1.1.3"
+	"version": "1.1.4"
 }
