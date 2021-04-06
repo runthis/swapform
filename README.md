@@ -17,8 +17,7 @@
   <a href="https://github.com/runthis/swapform/issues/new">Request feature</a>
 </p>
 
-
-
+[![Build](https://github.com/runthis/swapform/actions/workflows/build.yml/badge.svg)](https://github.com/runthis/swapform/actions/workflows/build.yml)
 [![license](https://img.shields.io/npm/l/swapform)](https://github.com/runthis/swapform/blob/master/LICENSE)
 [![version](https://img.shields.io/github/package-json/version/runthis/swapform)](https://www.npmjs.com/package/swapform)
 ![bootstrap version](https://img.shields.io/npm/dependency-version/swapform/peer/bootstrap)
