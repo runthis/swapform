@@ -18,5 +18,7 @@ jobs:
           npm install --only=dev
           npm run css-compile
           npm run css-minify
-          npm run js-compile
-          npm run js-minify
+          npm run js-compile-dev
+          npm run js-minify-dev
+          npm run js-compile-prod
+          npm run js-minify-prod

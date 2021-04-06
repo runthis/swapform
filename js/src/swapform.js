@@ -1,4 +1,4 @@
-/**
+/*!
  * --------------------------------------------------------------------------
  * Swapform (v1.0): swapform.js
  * Licensed under MIT (https://github.com/runthis/swapform/blob/main/LICENSE)
@@ -103,7 +103,7 @@ class FormControl {
 	
 	elements() {
 		let list = [];
-		let blacklist = ['file', 'color'];
+		let blacklist = ['file', 'color', 'range'];
 		for( let element of this.query() ) {
 			if( blacklist.indexOf(element.nextElementSibling.type) == -1 ) {
 				list.push(element.nextElementSibling);

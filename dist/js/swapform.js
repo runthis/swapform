@@ -1,9 +1,10 @@
-/**
- * --------------------------------------------------------------------------
- * Swapform (v1.0): swapform.js
- * Licensed under MIT (https://github.com/runthis/swapform/blob/main/LICENSE)
- * --------------------------------------------------------------------------
- */'use strict';
+/*
+ --------------------------------------------------------------------------
+ Swapform (v1.0): swapform.js
+ Licensed under MIT (https://github.com/runthis/swapform/blob/main/LICENSE)
+ --------------------------------------------------------------------------
+*/
+'use strict';
 class FormControl {
   constructor() {
     this.default();
@@ -80,7 +81,7 @@ class FormControl {
   }
   elements() {
     let list = [];
-    let blacklist = ["file", "color"];
+    let blacklist = ["file", "color", "range"];
     for (let element of this.query()) {
       if (blacklist.indexOf(element.nextElementSibling.type) == -1) {
         list.push(element.nextElementSibling);
@@ -171,4 +172,5 @@ class FormControl {
 (function() {
   new FormControl;
 })();
+
 //# sourceMappingURL=swapform.js.map

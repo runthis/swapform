@@ -1,62 +1,63 @@
 {
 	"name": "swapform",
 	"author": {
-	  "name": "Robert Miller",
-	  "url": "https://github.com/runthis/swapform/graphs/contributors"
+		"name": "Robert Miller",
+		"url": "https://github.com/runthis/swapform/graphs/contributors"
 	},
 	"bugs": {
-	  "url": "https://github.com/runthis/swapform/issues"
+		"url": "https://github.com/runthis/swapform/issues"
 	},
 	"config": {
-	  "version_short": "1.0"
+		"version_short": "1.0"
 	},
 	"contributors": [
-	  {
-		"name": "Robert Miller"
-	  }
+		{
+			"name": "Robert Miller"
+		}
 	],
 	"dependencies": {},
 	"devDependencies": {
-		"node-sass": "^5.0.0",
+		"sass": "^1.32.8",
 		"google-closure-compiler": "^20210302.0.0"
 	},
 	"description": "A front-end improvement to Bootstrap forms with a Material design.",
 	"files": [
-	  "dist/{css,js}/*.{css,js,map}",
-	  "js/{src,dist}/**/*.{js,map}",
-	  "scss/**/*.scss"
+		"dist/{css,js}/*.{css,js,map}",
+		"js/{src,dist}/**/*.{js,map}",
+		"scss/**/*.scss"
 	],
 	"funding": {
-	  "type": "opencollective",
-	  "url": "https://opencollective.com/swapform"
+		"type": "opencollective",
+		"url": "https://opencollective.com/swapform"
 	},
 	"homepage": "https://swapform.robertjessemiller.com/",
 	"keywords": [
-	  "bootstrap",
-	  "front-end",
-	  "material",
-	  "form",
-	  "css",
-	  "sass",
-	  "web"
+		"bootstrap",
+		"front-end",
+		"material",
+		"form",
+		"css",
+		"sass",
+		"web"
 	],
 	"license": "MIT",
 	"main": "dist/js/swapform.js",
 	"peerDependencies": {
-	  "bootstrap": ">=3.4.1"
+		"bootstrap": ">=3.4.1"
 	},
 	"repository": {
-	  "type": "git",
-	  "url": "git+https://github.com/runthis/swapform.git"
+		"type": "git",
+		"url": "git+https://github.com/runthis/swapform.git"
 	},
 	"sass": "scss/swapform.scss",
 	"scripts": {
-		"css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/ -o dist/css/",
-		"css-minify": "node-sass --output-style compressed --source-map true --source-map-contents true --precision 6 scss/ -o dist/css/",
-		"js-compile": "npx google-closure-compiler --js=js/src/swapform.js --js_output_file=js/dist/swapform.js --create_source_map=js/dist/swapform.js.map --source_map_include_content --compilation_level=WHITESPACE_ONLY --formatting=PRETTY_PRINT --language_out=ES6",
-		"js-minify": "npx google-closure-compiler --js=js/src/swapform.js --js_output_file=js/dist/swapform.min.js --create_source_map=js/dist/swapform.min.js.map --source_map_include_content"
+		"css-compile": "npx sass scss/swapform.scss dist/css/swapform.css --style=expanded",
+		"css-minify": "npx sass scss/swapform.scss dist/css/swapform.css --style=compressed",
+		"js-compile-dev": "npx google-closure-compiler --js=js/src/swapform.js --js_output_file=js/dist/swapform.js --create_source_map=js/dist/swapform.js.map --source_map_include_content --output_wrapper '%output%\n//# sourceMappingURL=swapform.js.map' --compilation_level=WHITESPACE_ONLY --formatting=PRETTY_PRINT --language_out=ES6",
+		"js-minify-dev": "npx google-closure-compiler --js=js/src/swapform.js --js_output_file=js/dist/swapform.min.js --create_source_map=js/dist/swapform.min.js.map --source_map_include_content --output_wrapper '%output%\n//# sourceMappingURL=swapform.js.map' --language_out=ES6",
+		"js-compile-prod": "npx google-closure-compiler --js=js/src/swapform.js --js_output_file=dist/js/swapform.js --create_source_map=js/dist/swapform.js.map --source_map_include_content --output_wrapper '%output%\n//# sourceMappingURL=swapform.js.map' --compilation_level=WHITESPACE_ONLY --formatting=PRETTY_PRINT --language_out=ES6",
+		"js-minify-prod": "npx google-closure-compiler --js=js/src/swapform.js --js_output_file=dist/js/swapform.min.js --create_source_map=js/dist/swapform.min.js.map --source_map_include_content --output_wrapper '%output%\n//# sourceMappingURL=swapform.js.map' --language_out=ES6"
 	},
 	"style": "dist/css/swapform.css",
-	"version": "1.0.10"
-  }
-  
+	"version": "1.0.11"
+}
