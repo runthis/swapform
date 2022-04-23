@@ -24,7 +24,7 @@
 [![CSS gzip size](https://img.badgesize.io/runthis/swapform/master/dist/css/swapform.min.css?compression=gzip&label=CSS%20gzip%20size)](https://github.com/runthis/swapform/blob/master/dist/css/swapform.min.css)
 [![vulnerabilities](https://img.shields.io/snyk/vulnerabilities/npm/swapform)](https://snyk.io/vuln/search?type=npm&q=swapform)
 [![license](https://img.shields.io/npm/l/swapform)](https://github.com/runthis/swapform/blob/master/LICENSE)
-
+[![CodeQL](https://github.com/runthis/swapform/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/runthis/swapform/actions/workflows/codeql-analysis.yml)
 
 
 
