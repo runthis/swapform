@@ -18,7 +18,7 @@
 	"dependencies": {},
 	"devDependencies": {
 		"sass": "^1.70.0",
-		"google-closure-compiler": "^20210302.0.0"
+		"google-closure-compiler": "^20230802.0.0"
 	},
 	"description": "A front-end improvement to Bootstrap forms with a Material design.",
 	"files": [
